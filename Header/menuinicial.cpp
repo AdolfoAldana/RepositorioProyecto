@@ -2,8 +2,9 @@
 using namespace std;
 int main(){
     cout<<"Hola mundo";
+    cout<<"Hola guapos";
+    ;123
 }
 
 
 Hola guapos
-// hueco el que me borre
