@@ -1,2 +1,5 @@
-// hola a donde tan perra?
-//Hola
+#include <iostream>
+using namespace std;
+int main(){
+    cout<<"Hola mundo";
+}
