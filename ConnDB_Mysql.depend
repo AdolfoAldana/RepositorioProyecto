@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1680410010 source:c:\Users\Adolfo\Documents\Proyectomain.cpp
+	<iostream>
+	<cConn.h>
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h"
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysqld_error.h"
+
+1680409124 c:\users\gustavo mendez\desktop\ejemplos seccion a\conndb_mysql\conndb_mysql\include\cconn.h
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h"
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysqld_error.h"
+
+1671226484 c:\Users\Adolfo\Documents\Proyectomain.cpp
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<sys/types.h>
+	<windows.h>
+	<winsock2.h>
+	"field_types.h"
+	"my_list.h"
+	"mysql_com.h"
+	"mysql/client_plugin.h"
+	"mysql_version.h"
+	"mysql_time.h"
+	"errmsg.h"
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\field_types.h
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\my_list.h
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\mysql_com.h
+	<stdbool.h>
+	<stdint.h>
+	"my_command.h"
+	"my_compress.h"
+	"my_io.h"
+	"mysql/components/services/bits/my_io_bits.h"
+	<stdbool.h>
+	"mysql/udf_registration_types.h"
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\my_command.h
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\my_compress.h
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\mysql\udf_registration_types.h
+	<stdbool.h>
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\mysql\client_plugin.h
+	<stdarg.h>
+	<stdlib.h>
+	"plugin_auth_common.h"
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\mysql\plugin_auth_common.h
+	<windows.h>
+
+1671230428 c:\program files\mysql\mysql server 8.0\include\mysql_version.h
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\mysql_time.h
+
+1671226484 c:\program files\mysql\mysql server 8.0\include\errmsg.h
+
+1671229422 c:\program files\mysql\mysql server 8.0\include\mysqld_error.h
+
+1680409207 source:c:\users\gustavo mendez\desktop\ejemplos seccion a\conndb_mysql\conndb_mysql\src\cconn.cpp
+	"cConn.h"
+	<iostream>
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h"
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysqld_error.h"
+
