@@ -1,27 +1,15 @@
 #include <iostream>
-#include "C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h"
-#include "C:/Program Files/MySQL/MySQL Server 8.0/include/mysqld_error.h"
+#include ".\cConn.h"
+#include "C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+#include "C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
 
 
 using namespace std;
-
-int main()
-{
-    try
-    {
-    MYSQL* conectar;
-    conectar= mysql_init(0);
-    conectar= mysql_real_connect(conectar,"localhost", "root" , "root" , "ferreteria",3306,NULL, 0);
-    if(conectar){
-        cout<< "Conexion Exitosa.." <<endl;
+int main(){
+   cConn connDB;
+   MYSQL *objDatos;
+    if(!(objDatos = mysql_init(0)))    {
+        cout<<"Error al cargar driver de la base de datos";
+        return 0;
     }
-    else{
-        cout<< "Error en la conexion.."<<endl;
-    }
-    }  
-    catch (int x ) {
-      cout << "Exception Caught \n";
-   }
-    system("pause");
-    return 0;
 }
