@@ -4,6 +4,7 @@
 #include "C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
 
 
+
 using namespace std;
 int main(){
    cConn connDB;

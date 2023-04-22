@@ -1,6 +1,7 @@
 {
     "cmake.configureArgs": [],
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.dll": "cpp"
     }
 }
